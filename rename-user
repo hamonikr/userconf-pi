@@ -67,6 +67,7 @@ if [ "$(raspi-config nonint get_boot_cli)" -ne 0 ]; then
 		Type=Application
 		Name=Raspberry Pi First-Run Wizard
 		Exec=piwiz$ADDITIONAL
+        Icon=hamonikr
 		StartupNotify=true
 	EOF
 
